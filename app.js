@@ -21,6 +21,9 @@ exibirMensagemInicial();
 
 function verificarChute(){
     let chute = document.querySelector('input').value;
+    if(chute.trim() === ''){
+        return;
+    }
     if(chute == numeroSecreto){
         exibirTextoNaTela('h1','Você Acertou!!!');
         let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
