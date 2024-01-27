@@ -15,7 +15,7 @@ body {
 
 
 body::before {
-    background-image: url("img/matrix.png");
+    background-image: url("img/matrix.jpg");
     background-repeat: no-repeat;
     background-position: right;
     content: "";
